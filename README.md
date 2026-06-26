@@ -23,6 +23,9 @@ The lab serves as a platform for learning Linux administration, networking, stor
 - Vaultwarden
 - Tailscale
 - Nginx Proxy Manager
+- Portainer 
+- Uptime Kuma
+- Pi-hole
 
 ## Services
 
@@ -32,6 +35,10 @@ The lab serves as a platform for learning Linux administration, networking, stor
 | Vaultwarden | Password management |
 | Jellyfin | Media streaming |
 | Tailscale | Secure remote access |
+| Nginx Proxy Manager | Reverse Proxy Management |
+| Uptime Kuma | Uptime Monitoring |
+| Portainer | Docker Container Management |
+| Pi-hole | Network-wide ad blocker |
 
 ## Skills Demonstrated
 

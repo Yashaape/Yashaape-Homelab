@@ -27,6 +27,29 @@ The lab serves as a platform for learning Linux administration, networking, stor
 - Uptime Kuma
 - Pi-hole
 
+## Architecture diagrams
+ 
+### Network topology
+> Three-tier layout showing internet, home LAN, and homelab server — including Pi-hole in the DNS path and Tailscale for remote access.
+ 
+![Network Topology](diagrams/network-topology.png)
+ 
+---
+ 
+### Service stack
+> Every layer from bare metal up through Ubuntu, CasaOS, Docker containers, and the access/security tier.
+ 
+![Service Stack](diagrams/service-stack.png)
+ 
+---
+ 
+### Traffic flow
+> Side-by-side comparison of external HTTPS access (via DuckDNS + Nginx Proxy Manager) and Tailscale VPN remote access.
+ 
+![Traffic Flow](diagrams/traffic-flow.png)
+ 
+---
+
 ## Services
 
 | Service | Purpose |

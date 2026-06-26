@@ -6,6 +6,13 @@ This repository documents my self-hosted homelab environment running Ubuntu Serv
 
 The lab serves as a platform for learning Linux administration, networking, storage management, containerized applications, and infrastructure documentation.
 
+## Screenshots
+![Casaos](Casaos.png)
+-
+![Neofetch](screenshots/Neofetch.png)
+-
+![Tailscale](screenshots/Tailscale.png)
+
 ## Objectives
 
 - Learn Linux system administration

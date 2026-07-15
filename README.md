@@ -1,28 +1,40 @@
 # HomeLab Infrastructure Documentation
-
+ 
 ## Overview
-
-This repository documents my self-hosted homelab environment running Ubuntu Server and CasaOS.
-
-The lab serves as a platform for learning Linux administration, networking, storage management, containerized applications, and infrastructure documentation.
-
-## Screenshots
-![Casaos](screenshots/Casaos.png)
--
-![Neofetch](screenshots/Neofetch.png)
--
-![Tailscale](screenshots/Tailscale.png)
-
+ 
+This repository documents a self-hosted homelab environment designed to mirror a small IT work environment. The lab spans two physical hosts:
+ 
+- **Linux Services Host** — Ubuntu Server + CasaOS running self-hosted applications (media, password management, monitoring, reverse proxy, networking)
+- **Windows Server / Domain Controller** — Windows Server 2025 running Active Directory Domain Services
+📄 **[Windows Server & Active Directory Documentation →](docs/windows_server.md)**
+ 
+The lab serves as a platform for learning Linux and Windows system administration, Active Directory, networking, storage management, containerized applications, and infrastructure documentation.
+ 
+## Documentation Index
+ 
+| Doc | Description |
+|---|---|
+| [Windows Server / Active Directory](docs/windows_server.md) | Domain controller setup, AD DS, hardware specs |
+| [Hardware](docs/hardware.md) | Linux host specifications |
+| [Services](docs/services.md) | Self-hosted application details |
+| [Network](docs/network.md) | Network overview |
+| [Security](docs/security.md) | Security practices |
+| [Backups](docs/backups.md) | Backup and recovery strategy |
+ 
 ## Objectives
-
-- Learn Linux system administration
+ 
+- Learn Linux and Windows Server system administration
+- Deploy and manage Active Directory Domain Services
 - Practice network management
 - Deploy self-hosted services
 - Implement secure remote access
 - Create backup and recovery procedures
+- Simulate a real-world small business IT environment
+
 
 ## Technologies
-
+ 
+**Linux Host**
 - Ubuntu Server
 - CasaOS
 - Docker
@@ -30,9 +42,14 @@ The lab serves as a platform for learning Linux administration, networking, stor
 - Vaultwarden
 - Tailscale
 - Nginx Proxy Manager
-- Portainer 
+- Portainer
 - Uptime Kuma
 - Pi-hole
+
+**Windows Server / Domain**
+- Windows Server 2025
+- Active Directory Domain Services (AD DS)
+- DNS
 
 ## Architecture diagrams
  
@@ -58,9 +75,10 @@ The lab serves as a platform for learning Linux administration, networking, stor
 ---
 
 ## Services
-
+ 
 | Service | Purpose |
 |----------|---------|
+| Active Directory | Domain identity & access management |
 | NAS | Centralized storage |
 | Vaultwarden | Password management |
 | Jellyfin | Media streaming |
@@ -70,9 +88,12 @@ The lab serves as a platform for learning Linux administration, networking, stor
 | Portainer | Docker Container Management |
 | Pi-hole | Network-wide ad blocker |
 
-## Skills Demonstrated
 
+## Skills Demonstrated
+ 
 - Linux Administration
+- Windows Server Administration
+- Active Directory / Domain Services
 - Docker Container Management
 - Networking
 - VPN Configuration

@@ -1,6 +1,8 @@
 # Windows Server / Active Directory
 
 ![Windows Server](../screenshots/windows_server.png)
+![Active Directory Setup](../screenshots/windows-ad-setup.png)
+
 
 ## Overview
 

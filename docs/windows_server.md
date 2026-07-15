@@ -1,6 +1,6 @@
 # Windows Server / Active Directory
 
-![Windows Server](screenshots/windows_server.png)
+![Windows Server](Yashaape-Homelab/screenshots/windows_server.png)
 
 ## Overview
 

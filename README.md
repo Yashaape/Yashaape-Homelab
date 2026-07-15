@@ -31,6 +31,14 @@ The lab serves as a platform for learning Linux and Windows system administratio
 - Create backup and recovery procedures
 - Simulate a real-world small business IT environment
 
+## Screenshots
+![CasaOS Dashboard](screenshots/Casaos.png)
+![Neofetch](screenshots/Neofetch.png)
+![Tailscale](screenshots/Tailscale.png)
+
+
+
+
 
 ## Technologies
  

@@ -1,5 +1,7 @@
 # Windows Server / Active Directory
 
+![Windows Server](screenshots/windows_server.png)
+
 ## Overview
 
 A dedicated Windows Server host was added to the lab to simulate the domain services layer found in a typical small business or enterprise IT environment. This host runs Active Directory Domain Services (AD DS) and acts as the identity and access management backbone for the lab, separate from the Linux self-hosted services host.
